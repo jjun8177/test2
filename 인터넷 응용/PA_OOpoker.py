@@ -217,9 +217,7 @@ class Hands:
     def is_straight(self):
         count = 1
         current_num = self.cards[0][0]#str 1,2,3,~~~,K,Q,H
-        
-            
-                
+             
         if count == 5:
             return (int(self.cards[0].value())+1,'straight')
         else:
